@@ -12,6 +12,6 @@ return self.clients.claim();
 
 self.addEventListener('fetch', function(event) {
   // C'est là que la magie opère, Noël !
+  //f etch écoute tout ce qui passen entre le navigateur et le serveur. Ca déclenche la possibilité d'installation sur mobile Android
 });	
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js');
