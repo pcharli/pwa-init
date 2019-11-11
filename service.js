@@ -9,3 +9,5 @@ self.addEventListener('activate', event => {
   console.log('Log from event "ACTIVATE" in service worker version ' + version);
 return self.clients.claim();
 });
+
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js');
